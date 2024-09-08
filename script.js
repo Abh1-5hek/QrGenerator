@@ -1,11 +1,5 @@
 var btn = document.querySelector('#generate')
 var qrcode = document.querySelector('#qrcode')
-var expand= document.querySelector('textarea')
-
-expand.addEventListener('click', ()=>{
-      expand.row='3'
-      expand.clientHeight='50px'
-})
 
 btn.addEventListener('click', (e)=>{
       e.preventDefault();
